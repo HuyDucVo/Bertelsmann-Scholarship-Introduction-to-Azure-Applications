@@ -47,4 +47,9 @@ sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enable
 sudo service nginx restart
 cd ~/web
 python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip && pip install -r requirements.txt
+python application.py
+exit
 ```
+<img src="/simple-webapp-on-vm-l2e2/lecture2-excercise2.gif">
