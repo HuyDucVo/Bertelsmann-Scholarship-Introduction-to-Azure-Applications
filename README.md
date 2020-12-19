@@ -53,3 +53,22 @@ python application.py
 exit
 ```
 <img src="/simple-webapp-on-vm-l2e2/lecture2-excercise2.gif">
+# Create a simple web-app with webapp service
+```
+az login
+az webapp up \
+ --resource-group resource-group-west \
+ --name hello-world1234 \
+ --sku F1 \
+ --verbose
+az webapp up \
+ --name hello-world1234 \
+ --verbose
+az webapp delete \
+    --name hello-world1234 \
+    --resource-group resource-group-west
+az appservice plan delete \
+    --name [App Service Plan Name] \
+    --resource-group resource-group-west
+```
+<img src="/simple-webapp-on-webapp-service-l2e13/lecture2-excercise13.gif">
