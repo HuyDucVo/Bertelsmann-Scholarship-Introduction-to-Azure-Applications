@@ -71,4 +71,4 @@ az appservice plan delete \
     --name [App Service Plan Name] \
     --resource-group resource-group-west
 ```
-<img src="/simple-webapp-on-webapp-service-l2e13/lecture2-excercise13.gif">
+<img src="/simple-webapp-on-weapp-service-l2e13/lecture2-excercise13.gif">
