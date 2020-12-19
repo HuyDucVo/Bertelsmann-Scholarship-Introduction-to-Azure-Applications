@@ -53,6 +53,7 @@ python application.py
 exit
 ```
 <img src="/simple-webapp-on-vm-l2e2/lecture2-excercise2.gif">
+
 # Create a simple web-app with webapp service
 ```
 az login
