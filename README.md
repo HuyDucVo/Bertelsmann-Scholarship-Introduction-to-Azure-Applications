@@ -2,10 +2,15 @@
  Bertelsmann Scholarship - Introduction to Azure Applications
 
 # Create a Resource Group using the Azure CLI
+<details><summary>Expand</summary>
+<p>
 ```
 az login
 az group create --name resource-group-west --location westus2
 ```
+</p>
+</details>
+
 # Create a simple web-app with virtual machine
 reverse-proxy.conf 
 ```
