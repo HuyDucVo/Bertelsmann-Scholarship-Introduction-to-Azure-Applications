@@ -53,6 +53,7 @@ python application.py
 exit
 ```
 <img src="/simple-webapp-on-vm-l2e2/lecture2-excercise2.gif">
+
 # Create a simple web-app with webapp service
 ```
 az login
@@ -72,3 +73,45 @@ az appservice plan delete \
     --resource-group resource-group-west
 ```
 <img src="/simple-webapp-on-weapp-service-l2e13/lecture2-excercise13.gif">
+
+# Azure SQL Database
+```
+az sql server create \
+--admin-user udacityadmin \
+--admin-password XXXXX \
+--name hello-world-server-udacity \
+--resource-group resource-group-west \
+--location westus2 \
+--enable-public-network true \
+--verbose
+az sql server firewall-rule create \
+-g resource-group-west \
+-s hello-world-server-udacity \
+-n azureaccess \
+--start-ip-address 0.0.0.0 \
+--end-ip-address 0.0.0.0 \
+--verbose
+az sql server firewall-rule create \
+-g resource-group-west \
+-s hello-world-server-udacity \
+-n clientip \
+--start-ip-address 99XXXXXXX \
+--end-ip-address 99XXsXXXXXX \
+--verbose
+az sql db create \
+--name hello-world-db \
+--resource-group resource-group-west \
+--server hello-world-server-udacity \
+--tier Basic \
+--verbose
+az sql db delete \
+--name hello-world-db \
+--resource-group resource-group-west \
+--server hello-world-server-udacity \
+--verbose
+az sql server delete \
+--name hello-world-server-udacity \
+--resource-group resource-group-west \
+--verbose
+```
+<img src="/Auzre SQL Sotrage/l3e5.gif">
