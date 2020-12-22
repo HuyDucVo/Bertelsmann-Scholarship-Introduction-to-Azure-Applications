@@ -14,6 +14,9 @@ az group create --name resource-group-west --location westus2
 </details>
 
 # Create a simple web-app with virtual machine
+<details><summary>Expand</summary>
+<p>
+
 reverse-proxy.conf 
 ```
 server {
@@ -61,7 +64,14 @@ exit
 ```
 <img src="/simple-webapp-on-vm-l2e2/lecture2-excercise2.gif">
 
+</p>
+</details>
+
 # Create a simple web-app with webapp service
+<details><summary>Expand</summary>
+<p>
+
+
 ```
 az login
 az webapp up \
@@ -81,7 +91,13 @@ az appservice plan delete \
 ```
 <img src="/simple-webapp-on-weapp-service-l2e13/lecture2-excercise13.gif">
 
+</p>
+</details>
+
 # Azure SQL Database
+<details><summary>Expand</summary>
+<p>
+
 ```
 az sql server create \
 --admin-user udacityadmin \
@@ -122,3 +138,6 @@ az sql server delete \
 --verbose
 ```
 <img src="/Auzre SQL Sotrage/l3e5.gif">
+
+</p>
+</details>
