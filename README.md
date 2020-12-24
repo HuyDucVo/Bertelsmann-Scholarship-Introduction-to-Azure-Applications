@@ -142,7 +142,7 @@ az sql server delete \
 </p>
 </details>
 
-# Azure SQL Database
+# Blob Storage
 <details><summary>Expand</summary>
 <p>
 
