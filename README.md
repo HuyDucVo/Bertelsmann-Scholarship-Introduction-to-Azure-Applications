@@ -141,3 +141,24 @@ az sql server delete \
 
 </p>
 </details>
+
+# Azure SQL Database
+<details><summary>Expand</summary>
+<p>
+
+```
+az storage account create \
+ --name helloworldudacity \
+ --resource-group resource-group-west \
+ --location westus2
+az storage container create \
+ --account-name helloworldudacity \
+ --name images \
+ --auth-mode login \
+ --public-access container
+```
+
+<img src="/Auzre SQL Sotrage/l3e8.gif">
+
+</p>
+</details>
