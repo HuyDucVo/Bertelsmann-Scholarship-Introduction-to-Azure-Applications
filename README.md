@@ -163,11 +163,12 @@ az storage container create \
 </p>
 </details>
 
-# Blob Storage
+# Connecting App to Storage
 <details><summary>Expand</summary>
 <p>
 
 ```
+https://github.com/HuyDucVo/Bertelsmann-Scholarship-Introduction-to-Azure-Applications/tree/main/Connecting%20App%20to%20Storage
 ```
 
 <img src="Connecting App to Storage/l3e11.gif">
