@@ -162,3 +162,15 @@ az storage container create \
 
 </p>
 </details>
+
+# Blob Storage
+<details><summary>Expand</summary>
+<p>
+
+```
+```
+
+<img src="Connecting App to Storage/l3e11.gif">
+
+</p>
+</details>
