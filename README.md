@@ -175,3 +175,16 @@ https://github.com/HuyDucVo/Bertelsmann-Scholarship-Introduction-to-Azure-Applic
 
 </p>
 </details>
+
+# OAuth2 with MSAL
+<details><summary>Expand</summary>
+<p>
+
+```
+https://github.com/HuyDucVo/Bertelsmann-Scholarship-Introduction-to-Azure-Applications/tree/main/OAuth2%20with%20MSAL
+```
+
+<img src="OAuth2 with MSAL/l4e10.gif">
+
+</p>
+</details>
